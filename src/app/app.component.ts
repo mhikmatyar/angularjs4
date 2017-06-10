@@ -10,7 +10,7 @@ export class Hero {
   template: `
     <h1>{{title}}</h1>
     <h2>{{hero.name}} details!</h2>
-    <div><label>id: </label>{{hero.id}}</div>
+    <div><label>name: </label>{{hero.id}}</div>
     <div>
       <label>name: </label>
       <input [(ngModel)]="hero.name" placeholder="name">
@@ -18,9 +18,9 @@ export class Hero {
     `
 })
 export class AppComponent {
-  title = 'Tour of Heroes';
-  hero: Hero = {
+  title = 'Tour of Cornata';
+  user: User = {
     id: 1,
-    name: 'Windstorm'
+    name: 'Mirza'
   };
 }
