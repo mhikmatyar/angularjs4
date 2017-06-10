@@ -9,11 +9,11 @@ export class Hero {
   selector: 'my-app',
   template: `
     <h1>{{title}}</h1>
-    <h2>{{hero.name}} details!</h2>
-    <div><label>name: </label>{{hero.id}}</div>
+    <h2>{{user.name}} details!</h2>
+    <div><label>name: </label>{{user.id}}</div>
     <div>
       <label>name: </label>
-      <input [(ngModel)]="hero.name" placeholder="name">
+      <input [(ngModel)]="user.name" placeholder="name">
     </div>
     `
 })
